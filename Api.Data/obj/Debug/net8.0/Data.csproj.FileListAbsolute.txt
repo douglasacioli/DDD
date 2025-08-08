@@ -9,3 +9,7 @@ C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Data\obj\Debug\net8.0\
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Data\obj\Debug\net8.0\refint\Data.dll
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Data\obj\Debug\net8.0\Data.pdb
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Data\bin\Debug\net8.0\Data.runtimeconfig.json
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Data\obj\Debug\net8.0\Data.sourcelink.json
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
