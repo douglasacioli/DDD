@@ -31,3 +31,4 @@ C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Application\obj\Debug\
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Application\obj\Debug\net8.0\application.pdb
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Application\obj\Debug\net8.0\application.genruntimeconfig.cache
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Application\obj\Debug\net8.0\ref\application.dll
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Application\obj\Debug\net8.0\application.sourcelink.json

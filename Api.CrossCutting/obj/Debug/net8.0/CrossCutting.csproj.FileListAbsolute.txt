@@ -9,3 +9,4 @@ C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.CrossCutting\obj\Debug
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.CrossCutting\obj\Debug\net8.0\refint\CrossCutting.dll
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.CrossCutting\obj\Debug\net8.0\CrossCutting.pdb
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.CrossCutting\obj\Debug\net8.0\ref\CrossCutting.dll
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.CrossCutting\obj\Debug\net8.0\CrossCutting.sourcelink.json
