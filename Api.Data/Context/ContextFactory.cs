@@ -3,15 +3,15 @@ using Microsoft.EntityFrameworkCore.Design;
 
 namespace Api.Data.Context
 {
-    public class ContextFactory : IDesignTimeDbContextFactory<AppContext>  
+    public class ContextFactory : IDesignTimeDbContextFactory<MyContext>  
     {
-        public AppContext CreateDbContext(string[] args)
+        public MyContext CreateDbContext(string[] args)
         {
             var connectionString = "Data Source=DESKTOP-UMTKU90\\SQLEXPRESS;Initial Catalog=DougDb;Integrated Security=True;TrustServerCertificate=True";
-            var optionsBuilder = new DbContextOptionsBuilder<AppContext>();
+            var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
             optionsBuilder.UseSqlServer(connectionString);
 
-            return new AppContext(optionsBuilder.Options);
+            return new MyContext(optionsBuilder.Options);
         }
     }
 }
