@@ -37,17 +37,37 @@ namespace Api.Data.Repository
 
         public async Task<bool> ExistAsync(Guid id)
         {
-                return await _dataset.AnyAsync(x => x.Id.Equals(id));
+           return await _dataset.AnyAsync(x => x.Id.Equals(id));
         }
 
-        public Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _dataset.ToListAsync();
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Error retrieving all items", ex);
+            }
+            
         }
 
-        public Task<T> GetByIdAsync(Guid id)
+        public async Task<T> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = await _dataset.SingleOrDefaultAsync(x => x.Id.Equals(id));
+                if (result == null)
+                {
+                    throw new Exception("Item not found");
+                }
+                return result;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error retrieving item", ex);
+            }
         }
 
         public async Task<T> InsertAsync(T item)
