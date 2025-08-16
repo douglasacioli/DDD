@@ -15,9 +15,24 @@ namespace Api.Data.Repository
             _context = context;
             _dataset = _context.Set<T>();
         }
-        public Task<bool> DeleteAsync(Guid id)
+        public async Task<bool> DeleteAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = await _dataset.SingleOrDefaultAsync(x => x.Id.Equals(id));
+                if (result == null)
+                {
+                    return false;
+                }
+                _dataset.Remove(result);
+                await _context.SaveChangesAsync();
+                return true;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error deleting item", ex);
+            }
         }
 
         public Task<IEnumerable<T>> GetAllAsync()
@@ -61,7 +76,7 @@ namespace Api.Data.Repository
                 item.UpdatedAt = DateTime.UtcNow; 
                 item.CreatedAt = DateTime.UtcNow; 
                 _context.Entry(result).CurrentValues.SetValues(item);
-                
+
                 await _context.SaveChangesAsync();
             }
             catch (Exception ex)
