@@ -49,9 +49,26 @@ namespace Api.Data.Repository
             return item;
         }
 
-        public Task<T> UpdateAsync(T item)
+        public async Task<T> UpdateAsync(T item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = await _dataset.SingleOrDefaultAsync(x => x.Id.Equals(item.Id));
+                if (result == null)
+                {
+                    throw new Exception("Item not found");
+                }
+                item.UpdatedAt = DateTime.UtcNow; 
+                item.CreatedAt = DateTime.UtcNow; 
+                _context.Entry(result).CurrentValues.SetValues(item);
+                
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error updating item", ex);
+            }
+            return item;
         }
     }
 }
