@@ -10,3 +10,11 @@ C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\obj\Debug\net8
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\obj\Debug\net8.0\refint\Service.dll
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\obj\Debug\net8.0\Service.pdb
 C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\obj\Debug\net8.0\ref\Service.dll
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\bin\Debug\net8.0\CrossCutting.dll
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\bin\Debug\net8.0\Data.dll
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\bin\Debug\net8.0\Domain.dll
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\bin\Debug\net8.0\Domain.pdb
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\bin\Debug\net8.0\Data.pdb
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\bin\Debug\net8.0\CrossCutting.pdb
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+C:\Users\Dell\OneDrive\2015\Documentos\Cursos\DDD\src\Api.Service\obj\Debug\net8.0\Service.csproj.Up2Date
