@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "git-rocket-filter": {
+      "version": "1.0.1",
+      "commands": [
+        "git-rocket-filter"
+      ],
+      "rollForward": false
+    }
+  }
+}
